@@ -20,7 +20,7 @@ title-fa: وبلاگ Arshen
 email: arshen@outlook.com
 description: Mehdi Hosseinzade (Arshen) weblog!
 description-fa: وبلاگ شخصی مهدی حسین زاده (آرشن) برای آموزش و دلنوشته ها
-baseurl:
+baseurl: 
 url: http://blog.arshen.ir
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
