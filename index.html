@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home">
+
+	<ul class="post-list">
+		{% for post in site.posts %}
+		<li>
+			<article>
+				<header class="post-header">
+					<div>
+						<span>منتشر شده در </span><span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+					</div>
+
+					<h2>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h2>
+				</header>
+
+				<div class="entry-content">
+					{{ post.excerpt }}
+					{% if post.content contains site.excerpt_separator %}
+						<div class="readme">
+							<a href="{{ post.url | prepend: site.baseurl }}">ادامه مطلب</a>
+						</div>
+      		{% endif %}
+				</div>
+			</article>
+		</li>
+		{% endfor %}
+	</ul>
+
+	<p class="rss-subscribe">خوراک <a href="{{ "/feed.xml" | prepend: site.baseurl }}">با RSS</a></p>
+
+</div>

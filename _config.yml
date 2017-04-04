@@ -1,0 +1,41 @@
+---
+title: Arshen Weblog!
+timezone: Asia/Tehran
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    image:
+      path: "/thumbnail.jpg"
+      height: 400
+      width: 400
+title-fa: وبلاگ Arshen
+email: arshen@outlook.com
+description: Mehdi Hosseinzade (Arshen) weblog!
+description-fa: وبلاگ شخصی مهدی حسین زاده (آرشن) برای آموزش و دلنوشته ها
+baseurl:
+url: http://blog.arshen.ir
+markdown: kramdown
+excerpt_separator: "<!-- more -->"
+twitter:
+  username: PandaOria
+author:
+  twitter: PandaOria
+social:
+  name: Mehdi HosseinZade
+  links:
+  - https://twitter.com/PandaOria
+  - https://www.linkedin.com/in/arshen
+  - https://www.instagram.com/arshen74
+  - https://github.com/xtoolkit
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
