@@ -1,6 +1,8 @@
 ---
 title: ترفند های wsl
 date: 2017-04-17 19:36:00 +04:30
+categories:
+- wsl
 tags:
 - wsl
 - windows_10
