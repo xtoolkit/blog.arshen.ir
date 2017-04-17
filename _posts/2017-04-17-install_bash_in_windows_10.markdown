@@ -37,13 +37,21 @@ WSL تمامی کارها و ابزار های روزمره یک توسعه ده
 * OS Build: 15063 OR 14393 (پیشنهادی 15063)
 * System tyoe: x64
 
-برای پی بردن به این اطلاعات میتوانید به مسیر `Settings → System → About` مراجعه کنید.
+برای پی بردن به این اطلاعات میتوانید به مسیر
+```
+Settings → System → About
+```
+مراجعه کنید.
 
 ## نصب قدم به قدم
 
 ### قدم اول: فعال کردن حالت توسعه دهنده
 
-برای فعال کردن حالت توسعه دهنده به مسیر `Settings → Update & Security → For Developers` مراجعه کرده و حالت **Developer Mode** را انتخاب کنید.
+برای فعال کردن حالت توسعه دهنده به مسیر
+```
+Settings → Update & Security → For Developers
+```
+مراجعه کرده و حالت **Developer Mode** را انتخاب کنید.
 ![wsl_step_1.png](/uploads/wsl_step_1.png)
 
 ### قدم دوم: فعال کردن WSL
