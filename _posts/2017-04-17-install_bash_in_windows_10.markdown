@@ -1,6 +1,13 @@
 ---
 title: نصب bash در ویندوز 10
 date: 2017-04-17 15:59:00 +04:30
+categories:
+- wsl
+tags:
+- wsl
+- lxss
+- ubuntu
+- windows_10
 image:
   path: "/uploads/lxss.png"
   height: 768
