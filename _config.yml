@@ -26,8 +26,7 @@ markdown: kramdown
 excerpt_separator: "<!-- more -->"
 twitter:
   username: PandaOria
-author:
-  twitter: PandaOria
+author: PandaOria
 social:
   name: Mehdi HosseinZade
   links:
