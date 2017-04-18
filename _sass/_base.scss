@@ -61,13 +61,12 @@ article {
         &:first-letter {
             color: $article-ec-fle;
             display: inline-block;
-            float: left;
-            font-family: "Playfair Display";
+            float: right;
             font-size: 121px;
             font-style: normal;
             font-weight: 700;
             line-height: 70px;
-            margin: 6px 10px 0 -5px;
+            margin: 6px -5px 0 10px;
 
             @include media-query($on-palm) {
                 font-size: 70px;
@@ -77,7 +76,6 @@ article {
 
         &:first-line {
             color: $brand-color;
-            font-family: "Playfair Display SC";
             font-size: 1em;
             font-style: normal !important;
             font-weight: bold;
