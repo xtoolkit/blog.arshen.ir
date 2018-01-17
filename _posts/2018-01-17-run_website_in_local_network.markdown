@@ -1,6 +1,29 @@
 ---
 title: راه اندازی یک وبسایت در شبکه محلی
-date: 2018-01-07 20:26:00 +03:30
+date: 2018-01-17 15:26:00 +03:30
+categories:
+- network
+- website
+- education
+tags:
+- apache2
+- localhost
+- localsite
+- webserver
+- localserver
+- config apache2
+- config webserver in local
+- آپاچی 2
+- میزبان محلی
+- وبسایت محلی
+- وب سرور
+- سرور محلی
+- پیکربندی apache2
+- پیکربندی وب سرور در شبکه محلی
+image:
+  path: "/uploads/image12.jpg"
+  height: 657
+  width: 1229
 ---
 
 ## پیش نیاز ها:
@@ -30,7 +53,7 @@ date: 2018-01-07 20:26:00 +03:30
 
 برای اجرای سرویس های وب سرور apache2 و پایگاه داده mysql در xampp به Xampp Control Panel رفته و این دو ماژول را Start نمایید.
 
-<ax1>
+![imagea.png](/uploads/imagea.png)
 
 * در صورت خطا در اجرای سرویس وب سرور apache2 و اشغال بودن پورت 80 به احتمال زیاد در سیستم شما قبلا وب سروری نصب شده و هم اکنون در حال اجرا می باشد. 
 * معمولا با نصب Visual Studio وب سرور IIS ماکروسافت نصب می شود. (https://msdn.microsoft.com/en-us/library/ms178108.aspx)
@@ -42,7 +65,7 @@ date: 2018-01-07 20:26:00 +03:30
 * در ویندوز و با ابزار xampp آدرس C:\xampp\htdocs 
 * در اوبونتو و وب سرور apache2 آدرس /home/user/public_html 
 
-<ax2>
+![imageb.png](/uploads/imageb.png)
 
 ### 2. پیکربندی دیوار آتش
 
@@ -50,33 +73,33 @@ date: 2018-01-07 20:26:00 +03:30
 
 * ابتدا وارد برنامه  Windows Defender Firewall with Advanced Security شده و از لیست سمت چپ آیتم Inbound Rules را انتخاب کنید.
 
-<ax3>
+![imagec.png](/uploads/imagec.png)
 
 در این مکان لیست تمامی برنامه هایی که به آن ها دسترسی داده شده قرار دارد. 
 
 * بر روی Inbound Rules کلیک راست کرده و New Rules را کلیک نمایید.
 
-<ax4>
+![imaged.png](/uploads/imaged.png)
 
 * در این پنجره نوع را Port انتخاب نمایید و پورت 80 را وارد نمایید:
 
-<ax5>
+![imagee.png](/uploads/imagee.png)
 
 * سپس نوع ارتباط را Allow the connection قرار دهید.
 
-<ax6>
+![imagef.png](/uploads/imagef.png)
 
 * منطقه اجرایی پورت را انتخاب کنید: تیک Domain را زده و نوع شبکه محلی که قابلیت دسترسی به پورت مورد نظر دارد را انتخاب نمایید.
 
-<ax7>
+![image10.png](/uploads/image10.png)
 
 *  و در آخر نامی برای این Rule خود قرار دهید.
 
-<ax8>
+![image11.png](/uploads/image11.png)
 
 اکنون پورت 80 در سیستم های دیگر موجود در شبکه محلی شما، برای سیستم شما تعریف شده و در دسترس خواهد بود. به طور مثال اگر آیپی سیستم شما در شبکه محلی 192.168.137.136 باشد سیستم های دیگر اگر این آدرس را در مرورگر خود وارد کنند صفحه دایرکتوری وب سرور شما را مشاهده می نمایند.
 
-<ax9>
+![image12.jpg](/uploads/image12.jpg)
 
 برای غیر فعال کردن این قابلیت کافیست بر روی نام Rule خود در لیست دیوار آتش کلیک راست کرده و Disable Rule را کلیک نمایید. 
 
